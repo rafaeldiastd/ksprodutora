@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KS — Produtora Cultural · vídeo, dança e transformação</title>
+  <meta name="description" content="Produtora cultural de vídeo, dança e espetáculo, com foco em projetos sociais que transformam comunidades." />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=Anton&family=Archivo:wght@400..900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+</head>
+<body>
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner wrap">
+      <a href="#home" class="logo" aria-label="KS Produtora Cultural — início" data-nav-close>
+        <span class="logo__mark"><img src="assets/logo.webp" alt="" /></span>
+        <span class="logo__words">
+          <strong>KS</strong>
+          <em>produtora cultural</em>
+        </span>
+      </a>
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#manifesto">Manifesto</a>
+        <a href="#palco">Espetáculos</a>
+        <a href="#social">Projetos Sociais</a>
+        <a href="#impacto">Impacto</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="#contato" class="btn btn--mag nav__cta">Trabalhe conosco</a>
+      <button class="nav__burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__sheet" id="navSheet">
+      <a href="#manifesto" data-nav-close><span class="mono">01</span> Manifesto</a>
+      <a href="#palco" data-nav-close><span class="mono">02</span> Espetáculos</a>
+      <a href="#social" data-nav-close><span class="mono">03</span> Projetos Sociais</a>
+      <a href="#impacto" data-nav-close><span class="mono">04</span> Impacto</a>
+      <a href="#contato" data-nav-close><span class="mono">05</span> Contato</a>
+      <a href="#contato" data-nav-close class="btn btn--mag" style="margin-top:18px;align-self:flex-start;">
+        Trabalhe conosco
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section id="home" class="hero">
+      <div class="hero__bg">
+      </div>
+      <div class="hero__inner wrap">
+        <span class="eyebrow hero__eyebrow">Produtora cultural · vídeo + dança + espetáculo</span>
+        <h1 class="display hero__title">
+          <span class="line"><span>Arte que faz o mundo</span></span>
+          <span class="line line--rot">
+            <span class="rotator"><span class="rotator__word serif-accent" id="rotator">renascer.</span></span>
+          </span>
+        </h1>
+
+        <div class="hero__foot">
+          <p class="lead">
+            Dirigimos, filmamos e damos palco a projetos de dança e espetáculo — com o
+            coração em <span class="serif-accent" style="color:var(--pink-soft);">iniciativas sociais</span> que
+            movem comunidades inteiras.
+          </p>
+          <div class="hero__cta">
+            <a href="#palco" class="btn btn--mag btn--arrow">Conheça nosso trabalho
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </a>
+            <a href="#contato" class="btn btn--ghost"><span>Realizar um projeto</span></a>
+          </div>
+        </div>
+
+        <div class="hero__scroll">
+          <span class="dot"></span> role para descer
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MARQUEE ===================== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Dança</span><span>Direção de vídeo</span><span>Coreografia</span><span>Espetáculos</span><span>Projetos sociais</span><span>Registro de palco</span><span>Videodança</span><span>Formação</span><span>Dança</span><span>Direção de vídeo</span><span>Coreografia</span><span>Espetáculos</span><span>Projetos sociais</span><span>Registro de palco</span><span>Videodança</span><span>Formação</span>
+      </div>
+    </div>
+
+    <!-- ===================== MANIFESTO ===================== -->
+    <section id="manifesto" class="section section--light manifesto">
+      <div class="wrap">
+        <span class="eyebrow reveal">Manifesto</span>
+        <h2 class="manifesto__big reveal">
+          Acreditamos que toda comunidade carrega uma
+          <span class="serif-accent" style="color:var(--magenta);">coreografia própria</span> —
+          e que registrá-la é um ato de <span class="serif-accent" style="color:var(--magenta);">renascimento</span>.
+        </h2>
+        <div class="manifesto__grid">
+          <p class="lead reveal">
+            A KS nasceu do encontro entre o vídeo e o corpo em movimento. Como a fênix do nosso
+            símbolo, acreditamos que a arte faz pessoas e territórios renascerem — por isso colocamos
+            câmera, palco e técnica a serviço de quem mais precisa ser visto.
+          </p>
+          <ul class="manifesto__list reveal">
+            <li><strong>Dança no centro</strong><span class="muted">Movimento como linguagem que atravessa qualquer barreira.</span></li>
+            <li><strong>Olhar social</strong><span class="muted">Cada projeto fortalece uma comunidade, escola ou coletivo.</span></li>
+            <li><strong>Feito com a comunidade</strong><span class="muted">Não filmamos sobre as pessoas — filmamos com elas.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PALCO ===================== -->
+    <section id="palco" class="section section--ink palco">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow">Espetáculos & Coreografias</span>
+            <h2 class="h2">Do palco à tela,<br />o movimento não para.</h2>
+          </div>
+          <p class="lead muted" style="max-width:40ch;">
+            Unimos direção de vídeo e criação em dança numa só equipe — para que cada
+            apresentação vire também uma obra que dura.
+          </p>
+        </div>
+        <div class="palco__rows">
+          <article class="palco__row reveal">
+            <span class="palco__n serif-accent">01</span>
+            <h3 class="h3 palco__t">Direção & captação de espetáculos</h3>
+            <p class="palco__d muted">Multicâmera, transmissão e registro cinematográfico de apresentações ao vivo, do ensaio à edição final.</p>
+            <span class="palco__arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+          </article>
+          <article class="palco__row reveal">
+            <span class="palco__n serif-accent">02</span>
+            <h3 class="h3 palco__t">Videodança & criação coreográfica</h3>
+            <p class="palco__d muted">Co-criamos peças onde câmera e coreografia se movem juntas — pensadas para a tela desde o primeiro passo.</p>
+            <span class="palco__arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+          </article>
+          <article class="palco__row reveal">
+            <span class="palco__n serif-accent">03</span>
+            <h3 class="h3 palco__t">Coreografia para palco e tela</h3>
+            <p class="palco__d muted">Concepção e montagem de coreografias originais para espetáculos, clipes e ações culturais.</p>
+            <span class="palco__arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+          </article>
+          <article class="palco__row reveal">
+            <span class="palco__n serif-accent">04</span>
+            <h3 class="h3 palco__t">Formação & oficinas</h3>
+            <p class="palco__d muted">Workshops de dança e audiovisual em escolas e centros culturais, formando novos corpos e olhares.</p>
+            <span class="palco__arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOCIAL ===================== -->
+    <section id="social" class="section section--light social">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="eyebrow">Projetos Sociais</span>
+            <h2 class="h2">O coração da<br />produtora.</h2>
+          </div>
+          <p class="lead muted" style="max-width:42ch;">
+            Trabalhamos lado a lado com ONGs, escolas e coletivos. A arte entra como
+            ferramenta de transformação — e fica como memória da comunidade.
+          </p>
+    
+      <div class="parceiros-logo">
+        <div class="logos reveal">
+          <img class="logo-ph" src="assets/parceiros/logo-09.png" />            
+          <img class="logo-ph" src="assets/parceiros/logo-05.png" />
+          <img class="logo-ph" src="assets/parceiros/logo-07.png" />
+          <img class="logo-ph" src="assets/parceiros/logo-06.png" />
+          <img class="logo-ph" src="assets/parceiros/logo-08.png" />            
+        </div>
+      </div>
+
+        </div>
+
+        <article class="feature reveal">
+          <div class="ph feature__ph">
+            <!-- <span class="ph__tag">logotipo do projeto</span> -->
+              <img src="assets/logo-tvad.png" alt="Crianças dançando em um palco, sorrindo e se divertindo." />
+          </div>
+          <div class="feature__body">
+            <span class="eyebrow">Projeto em destaque</span>
+            <h3 class="feature__title">
+              Transformando vidas através da
+              <span class="serif-accent" style="color:var(--magenta);">dança</span>
+            </h3>
+            <p class="lead" style="max-width:46ch;">
+              Um programa que leva a dança a quem mais precisa dela — usando o movimento
+              como ferramenta de autoestima, pertença e expressão para crianças e jovens
+              em comunidades atendidas.
+            </p>
+            <a href="#contato" class="btn btn--mag btn--arrow" style="margin-top:8px;">
+              Apoiar o projeto
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+    
+
+    <!-- ===================== IMPACTO ===================== -->
+    <section id="impacto" class="section section--ink impacto">
+      <img class="impacto__ghost" src="assets/logo.jpg" alt="" aria-hidden="true" />
+      <div class="wrap">
+        <span class="eyebrow reveal">Impacto</span>
+        <h2 class="h2 reveal" style="max-width:16ch;margin-bottom:8px;">
+          Números que viram <span class="serif-accent" style="color:var(--magenta-bright);">histórias</span>.
+        </h2>
+        <div class="stats">
+          <div class="stat reveal">
+            <span class="stat__n"><span class="countup" data-to="500" data-suffix="+">0</span></span>
+            <span class="stat__l muted">pessoas impactadas diretamente</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__n"><span class="countup" data-to="60" data-suffix="+">0</span></span>
+            <span class="stat__l muted">horas de espetáculo registradas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===================== CONTATO ===================== -->
+    <!-- <section id="contato" class="section section--light contato">
+      <div class="wrap contato__grid">
+        <div class="contato__left reveal">
+          <span class="eyebrow">Contato</span>
+          <h2 class="display contato__big">
+            Vamos<br />criar<br /><span class="serif-accent" style="color:var(--magenta);">juntos?</span>
+          </h2>
+          <p class="lead muted" style="margin-top:20px;">
+            Tem um projeto social, espetáculo ou edital em mente? Conte pra gente —
+            respondemos em até 2 dias úteis.
+          </p>
+          <div class="contato__direct">
+            <a href="mailto:produtoraks@gmail.com" class="contato__email">produtoraks@gmail.com</a>
+          </div>
+        </div>
+
+        <form class="contato__form reveal" id="contatoForm">
+          <label class="field">
+            <span>Nome</span>
+            <input required name="nome" placeholder="Seu nome ou organização" />
+          </label>
+          <label class="field">
+            <span>E-mail</span>
+            <input required type="email" name="email" placeholder="voce@email.com" />
+          </label>
+          <label class="field">
+            <span>Tipo de projeto</span>
+            <select name="tipo">
+              <option>Projeto social</option>
+              <option>Espetáculo / registro de palco</option>
+              <option>Videodança / criação</option>
+              <option>Edital / captação</option>
+              <option>Outro</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Mensagem</span>
+            <textarea required name="msg" rows="4" placeholder="Conte sobre a sua ideia…"></textarea>
+          </label>
+          <button type="submit" class="btn btn--mag btn--arrow" style="justify-content:center;">
+            Enviar mensagem
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </button>
+        </form>
+      </div>
+    </section> -->
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer section--ink">
+    <div class="wrap footer__top">
+      <div class="footer__brand">
+        <a href="#home" class="logo" aria-label="KS Produtora Cultural — início" data-nav-close>
+          <span class="logo__mark"><img src="assets/logo.jpg" alt="" /></span>
+          <span class="logo__words">
+            <strong>KS</strong>
+            <em>produtora cultural</em>
+          </span>
+        </a>
+        <p class="lead muted" style="margin-top:22px;max-width:34ch;">
+          Arte que faz <span class="serif-accent" style="color:var(--pink-soft);">renascer</span> —
+          vídeo, dança e espetáculo a serviço de quem transforma o mundo.
+        </p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <span class="mono footer__h">NAVEGAR</span>
+          <a href="#manifesto">Manifesto</a>
+          <a href="#palco">Espetáculos</a>
+          <a href="#social">Projetos Sociais</a>
+          <a href="#impacto">Impacto</a>
+          <a href="#contato">Contato</a>
+        </div>
+        <div>
+          <span class="mono footer__h">CONTATO</span>
+          <a href="mailto:produtoraks@gmail.com">produtoraks@gmail.com</a>
+          <a href="tel:+555182528204">+55 (51) 8252-8204</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer__bot">
+      <span class="muted">© <span id="year">2026</span> KS Produtora Cultural. Todos os direitos reservados.</span>
+      <span class="muted">Feito com movimento ✶</span>
+    </div>
+  </footer>
+
+  <!-- app (JS puro) -->
+  <script src="js/main.js"></script>
+</body>
+</html>
